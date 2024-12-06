@@ -1,5 +1,5 @@
 # BakeryProject
 
-Proyecto de un lading page para una tienda de repostería.
+Proyecto de un landing page para una tienda de repostería.
 
 # GitHub Pages
