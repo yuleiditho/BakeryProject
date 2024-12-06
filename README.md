@@ -1,5 +1,7 @@
 # BakeryProject
 
-Proyecto de un landing page para una tienda de repostería.
+Proyecto de un landing de una tienda de repostería 
 
-# GitHub Pages
+# Logs
+- 2024-12-05: Proyecto iniciado
+- 2023-12-05: Landing page diseñada
