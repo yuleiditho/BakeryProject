@@ -64,8 +64,8 @@
     <!-- section home -->
     <section class="home" id="home">
         <h2 class="title-section">Descubre nuestros deliciosos postres</h2>
-        <div class="gallery-wrap" data-tabgroup="table-products">
-            <div class="item item-1">
+        <div class="gallery-wrap topics" data-tabgroup="table-products">
+            <div class="item item-1" data-topic="pasteles">
                 <img src="https://www.panperu.pe/wp-content/uploads/2015/08/images-11.jpg" alt="Pasteles deliciosos" class="item-image" data-tab="pasteles" style="cursor:pointer;"/>
                 <h2>Pasteles</h2>
                 <div class="hidden-text">
@@ -74,7 +74,7 @@
                     <p><strong>¡Endulza tu día con nuestros pasteles!</strong></p>
                 </div>
             </div>
-            <div class="item item-2">
+            <div class="item item-2" data-topic="pays">
                 <img src="https://masmejores.com/wp-content/uploads/delicioso-pay-de-limon-768x512.png" alt="Delicioso pay de limón" class="item-image" data-tab="pays" style="cursor:pointer;"/>
                 <h2>Pays</h2>
                 <div class="hidden-text">
@@ -83,7 +83,7 @@
                     <p><strong>¡Disfruta de un bocado dulce con nosotros!</strong></p>
                 </div>
             </div>
-            <div class="item item-3">
+            <div class="item item-3" data-topic="muffins">
                 <img src="https://static.honeykidsasia.com/wp-content/uploads/2021/07/rsz_tmp-cupcakes_grp-9_1-11.jpg" alt="Muffins recién horneados" class="item-image" data-tab="muffins" style="cursor:pointer;"/>
                 <h2>Muffins</h2>
                 <div class="hidden-text">
@@ -92,7 +92,7 @@
                     <p><strong>¡Haz que cada mañana sea más deliciosa con nuestros muffins!</strong></p>
                 </div>
             </div>
-            <div class="item item-4">
+            <div class="item item-4" data-topic="brownies">
                 <img src="https://yumbaker.co.za/cdn/shop/products/24.jpg?v=1682315621" alt="Brownies caseros" class="item-image" data-tab="brownies" style="cursor:pointer;"/>
                 <h2>Brownies</h2>
                 <div class="hidden-text">
@@ -101,7 +101,7 @@
                     <p><strong>¡Haz que cada momento sea dulce con nuestros brownies!</strong></p>
                 </div>
             </div>
-            <div class="item item-5">
+            <div class="item item-5" data-topic="galletas">
                 <img src="https://i.pinimg.com/originals/b4/63/4e/b4634ef9f07ce708c54415f8618ea3ba.jpg" alt="Galletas recién horneadas" class="item-image" data-tab="galletas" style="cursor:pointer;"/>
                 <h2>Galletas</h2>
                 <div class="hidden-text">
@@ -111,7 +111,6 @@
                 </div>
             </div>  
         </div>
-
         <div class="img-deco">
             <img src="https://cdn.shopify.com/s/files/1/0088/7586/8196/files/ornamento.svg?v=1700264951" alt="imagen deco">
         </div>
@@ -121,7 +120,9 @@
     <!-- end section -->
 
     <section class="gallery-products">
-        <h2 class="title-section" id="pasteles">Pasteles - Yiye's</h2>
+        <!-- Productos PASTELES -->
+        <div class="tab-content products pasteles">
+        <h2 class="title-section">Pasteles - Yiye's</h2>
         <div class="center-gallery">
             <div class="flex-container">
             <!-- Producto 1 -->
@@ -226,6 +227,414 @@
          
         </div>
         </div>
+        </div>
+
+        <!-- Productos PAYS -->
+        <div class="tab-content products pays">
+            <h2 class="title-section">Pays - Yiye's</h2>
+            <div class="center-gallery">
+                <div class="flex-container">
+                <!-- Producto 1 -->
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/pays/pay-nuez.jpg" alt="Pay de Nuez" class="image-default">
+                        <img src="images/pays/pay-nuez2.jpg" alt="Pay de nuez rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Pay de Nuez</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (9) </p>
+                        <p class="price">A partir de <span>$480.00 MXN</span></p>
+                    </div>
+                </div>
+
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/pays/pay-platano.jpg" alt="Pay de Plátano" class="image-default">
+                        <img src="images/pays/pay-platano2.jpg" alt="Pay de plátano rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Pay de Plátano</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (9) </p>
+                        <p class="price">A partir de <span>$130.00 MXN</span></p>
+                    </div>
+                </div>
+
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/pays/pay-apple.jpg" alt="Pay de Manzana" class="image-default">
+                        <img src="images/pays/pay-apple2.jpg" alt="Pay de Manzana rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Pay de Manzana</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (21) </p>
+                        <p class="price">A partir de <span>$130.00 MXN</span></p>
+                    </div>
+                </div>
+
+
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/pays/pay-guayaba.jpg" alt="Pay de guayaba" class="image-default">
+                        <img src="images/pays/pay-guayaba2.jpg" alt="Pay de guayaba rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Pay de Guayaba</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (12) </p>
+                        <p class="price">A partir de <span>$190.00 MXN</span></p>
+                    </div>
+                </div>
+
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/pays/pay-limon.jpg" alt="Pay de limón" class="image-default">
+                        <img src="images/pays/pay-limon2.jpg" alt="Pay de limón rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Pay de Limón</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (2) </p>
+                        <p class="price">A partir de <span>$130.00 MXN</span></p>
+                    </div>
+                </div>
+
+
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/pays/pay-queso.jpg" alt="Pay de Queso" class="image-default">
+                        <img src="images/pays/pay-queso2.jpg" alt="Pay de queso rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Pay de Queso</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (2) </p>
+                        <p class="price">A partir de <span>$130.00 MXN</span></p>
+                    </div>
+                </div>
+
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/pays/pay-keto.jpg" alt="Pay de keto" class="image-default">
+                        <img src="images/pays/pay-keto2.jpg" alt="Pay de keto rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Pay de Keto</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (23) </p>
+                        <p class="price">A partir de <span>$190.00 MXN</span></p>
+                    </div>
+                </div>
+
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/pays/pay-turtle.jpg" alt="Pay de Tortuga" class="image-default">
+                        <img src="images/pays/pay-turtle2.jpg" alt="Pay de tortuga rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Pay de Tortuga</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (12) </p>
+                        <p class="price">A partir de <span>$190.00 MXN</span></p>
+                    </div>
+                </div>
+    
+                
+            </div>
+            </div>
+        </div>
+
+        <!-- Productos MUFFINS -->
+        <div class="tab-content products muffins">
+            <h2 class="title-section">Muffins - Yiye's</h2>
+            <div class="center-gallery">
+                <div class="flex-container">
+                <!-- Producto 1 -->
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/muffin/muf-pistache.jpg" alt="Muffin de pistache" class="image-default">
+                        <img src="images/muffin/muf-pistache2.jpg" alt="Muffin de pistache rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Muffin Pistache</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (9) </p>
+                        <p class="price">A partir de <span>$70.00 MXN</span></p>
+                    </div>
+                </div>
+    
+                <!-- Producto 2 -->
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/muffin/muf-aleman.jpg" alt="Muffin alemán" class="image-default">
+                        <img src="images/muffin/muf-aleman2.jpg" alt="Muffin alemán rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Muffin Alemán</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (4)</p>
+                        <p class="price">A partir de <span>$80.00 MXN</span></p>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/muffin/muf-elote.jpg" alt="Muffin elote" class="image-default">
+                        <img src="images/muffin/muf-elote2.jpg" alt="Muffin elote rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Muffin de Elote</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (59)</p>
+                        <p class="price">A partir de <span>$60.00 MXN</span></p>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/muffin/muf-choco.jpg" alt="Muffin Choco" class="image-default">
+                        <img src="images/muffin/muf-choco2.jpg" alt="Muffin Choco rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Muffin Choco </h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (16)</p>
+                        <p class="price">A partir de <span>$70.00 MXN</span></p>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/muffin/muf-velvet.jpg" alt="Muffin de Red Velvet" class="image-default">
+                        <img src="images/muffin/muf-velvet2.jpg" alt="Muffin de Red Velvet rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Muffin de Red Velvet</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (20)</p>
+                        <p class="price">A partir de <span>$80.00 MXN</span></p>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/muffin/muf-coco.jpg" alt="Muffin de Coco" class="image-default">
+                        <img src="images/muffin/muf-coco2.jpg" alt="Muffin de Coco rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Muffin de Coco</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (24)</p>
+                        <p class="price">A partir de <span>$90.00 MXN</span></p>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/muffin/muf-zanahoria.jpg" alt="Muffin de Zanahoria" class="image-default">
+                        <img src="images/muffin/muf-zanahoria2.jpg" alt="Muffin de Zanahoria rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Muffin de Zanahoria</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (19)</p>
+                        <p class="price">A partir de <span>$80.00 MXN</span></p>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/muffin/muf-ferrero.jpg" alt="Muffin Ferrero" class="image-default">
+                        <img src="images/muffin/muf-ferrero2.jpg" alt="Muffin Ferrero rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Muffin Ferrero</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (17)</p>
+                        <p class="price">A partir de <span>$80.00 MXN</span></p>
+                    </div>
+                </div>
+             
+            </div>
+            </div>
+        </div>
+
+        <!-- Productos BROWNIES -->
+        <div class="tab-content products brownies">
+            <h2 class="title-section">Brownies - Yiye's</h2>
+            <div class="center-gallery">
+                <div class="flex-container">
+                <!-- Producto 1 -->
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/brownies/brow-caja.png" alt="Brownie Caja" class="image-default">
+                        <img src="images/brownies/brow-caja2.png" alt="Brownie Caja rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Brownie Caja</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (9) </p>
+                        <p class="price">A partir de <span>$130.00 MXN</span></p>
+                    </div>
+                </div>
+    
+                <!-- Producto 2 -->
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/brownies/brow-cajanav.png" alt="Brownie Caja Navidad" class="image-default">
+                        <img src="images/brownies/brow-cajanav2.png" alt="Brownie Caja Navidad rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Brownie Navidad</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (4)</p>
+                        <p class="price">A partir de <span>$180.00 MXN</span></p>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/brownies/brow-keto.png" alt="Brownie Keto" class="image-default">
+                        <img src="images/brownies/brow-keto2.png" alt="Brownie Keto rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Brownie Keto</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (59)</p>
+                        <p class="price">A partir de <span>$130.00 MXN</span></p>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/brownies/brow-oreo.png" alt="Brownie oreo" class="image-default">
+                        <img src="images/brownies/brow-oreo2.png" alt="Brownie oreo rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Brownie de Oreo</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (16)</p>
+                        <p class="price">A partir de <span>$130.00 MXN</span></p>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/brownies/brow-queso.png" alt="Brownie queso" class="image-default">
+                        <img src="images/brownies/brow-queso2.png" alt="Brownie queso rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Brownie de Queso</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (20)</p>
+                        <p class="price">A partir de <span>$80.00 MXN</span></p>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/brownies/brow-super.png" alt="Brownie super" class="image-default">
+                        <img src="images/brownies/brow-super2.png" alt="Brownie super rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Brownie Súper</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (24)</p>
+                        <p class="price">A partir de <span>$150.00 MXN</span></p>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/brownies/brow-velvet.png" alt="Brownie velvet" class="image-default">
+                        <img src="images/brownies/brow-velvet2.png" alt="Brownie velvet rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Brownie de Velvet</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (19)</p>
+                        <p class="price">A partir de <span>$190.00 MXN</span></p>
+                    </div>
+                </div>
+              
+             
+            </div>
+            </div>
+        </div>
+
+        <!-- Productos GALLETAS -->
+        <div class="tab-content products galletas">
+            <h2 class="title-section">Galletas - Yiye's</h2>
+            <div class="center-gallery">
+                <div class="flex-container">
+                <!-- Producto 1 -->
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/cookies/cookie-barra.png" alt="Cookie Barra" class="image-default">
+                        <img src="images/cookies/cookie-barra2.png" alt="Cookie Barra rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Galleta de Barra</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (9) </p>
+                        <p class="price">A partir de <span>$70.00 MXN</span></p>
+                    </div>
+                </div>
+    
+                <!-- Producto 2 -->
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/cookies/cookie-choco.png" alt="Cookie Choco" class="image-default">
+                        <img src="images/cookies/cookie-choco2.png" alt="Cookie Choco rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Galleta de Chocolate</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (4)</p>
+                        <p class="price">A partir de <span>$80.00 MXN</span></p>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/cookies/cookie-keto.png" alt="Cookie Keto" class="image-default">
+                        <img src="images/cookies/cookie-keto2.png" alt="Cookie Keto rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Galleta de Keto</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (59)</p>
+                        <p class="price">A partir de <span>$90.00 MXN</span></p>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/cookies/cookie-nuez.png" alt="Cookie de Nuez" class="image-default">
+                        <img src="images/cookies/cookie-nuez2.png" alt="Cookie de Nuez rebanada" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Galleta de Nuez</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (16)</p>
+                        <p class="price">A partir de <span>$70.00 MXN</span></p>
+                    </div>
+                </div>
+                
+              
+               
+                <div class="flex-item">
+                    <div class="image-wrapper">
+                        <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
+                        <img src="images/cookies/cookie-cacao.png" alt="Cookie de Cacao" class="image-default">
+                        <img src="images/cookies/cookie-cacao2.png" alt="Cookie de Cacao" class="image-hover">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-product">Galleta de Cacao</h3>
+                        <p class="rating">⭐⭐⭐⭐⭐ (17)</p>
+                        <p class="price">A partir de <span>$90.00 MXN</span></p>
+                    </div>
+                </div>
+             
+            </div>
+            </div>
+        </div>
+
+        
+
+
+        
+
+
 
         <div class="btn-container">
             <button class="btn-all">Ver todo</button>
@@ -243,6 +652,7 @@
     
     <!-- scripts -->
   <script  src="script.js"></script>
+  <script  src="main.js"></script>
   
 </body>
 </html>
