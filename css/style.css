@@ -40,6 +40,18 @@ section{
     
 }
 
+
+body .sky {
+    position: relative;
+    overflow-x: hidden; /* Evita desplazamiento horizontal */
+}
+
+.sky {
+    height: 100%;
+    color: #FFF;
+    display: block;
+}
+
 header{
     position: fixed;
     top: 0; left:0; right:0;
@@ -117,6 +129,7 @@ header .navbar ul{
 }
 
 header .logo {
+    padding-left: 6.5rem; /* adjust this value to match your logo's width */
     font-size: 3rem;
     color: var(--green-main);
     font-weight: bold;
@@ -223,18 +236,18 @@ video{
 .home {
     position: relative;
     padding-top: 3rem;
-    /* background-color: var(--fondo); */
-      
+    padding-bottom: 0;
+    z-index: 1;      
 }
-
 
 .title-section{
-    color: rgb(74, 120, 41);
-    font-size: 45px;
-    margin: 10px 0 20px;
-    padding: 20px 0px;
+    color: rgb(186, 222, 160);
+    font-size: 40px;
+    padding-bottom: 30px;
     text-align: center;
+    font-weight: 500;
 }
+
 /* Ajustar la galería */
 .gallery-wrap {
     display: flex;
@@ -281,7 +294,7 @@ video{
     flex: 1;
     position: relative;
     overflow: hidden;
-    transition: flex 2s ease;
+    transition: flex 1s ease;
     z-index: 1;
 }
 
@@ -323,7 +336,173 @@ video{
 .item:hover .hidden-text p,
 .item:hover .hidden-text h3{
     transition: transform 0.01s ease; /* Suaviza el escalado del contenido */
+} 
+
+.img-deco{
+    padding-top: 3.5rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+/* Contenedor principal de la galería */
+.gallery-products {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 0;
+    padding-bottom: 0;  
+}
+
+.center-gallery{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.flex-container {
+    margin:0;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3.2rem;
+}
+
+/* Elemento Flex (cada tarjeta de producto) */
+.flex-item {
+    display: flex;
+    flex-direction: column; /* Imagen y texto en columna */
+    align-items: center; /* Centra contenido horizontalmente */
+    width: 250px;
+    border: 1px solid rgb(33, 19, 13);
+    border-radius: 10px;
+    background-color: rgb(28, 28, 33);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+/* Efecto hover en las tarjetas */
+.flex-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagenes dentro de la tarjeta */
+.image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+}
+
+.image-default,
+.image-hover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.flex-item:hover .image-hover {
+    opacity: 1;
+}
+
+.flex-item:hover .image-default {
+    opacity: 0;
+}
+
+/* Información del producto */
+.info {
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(28, 28, 33);
+}
+
+.title-product{
+    font-size: 18px;
+    font-weight: bold;
+    /* margin-bottom: 10px; */
+    color: var(--green);
+    display: inline-block;
+    transition: border-bottom-color 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.title-product:is(:hover,:active){
+    border-bottom-color: var(--green);
+}
+
+.rating {
+    font-size: 16px;
+    color: #f39c12;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.price {
+    font-size: 16px;
+    color: var(--green);
+    font-weight: 600;
+}
+
+.price span {
+    color: var(--green-main);
+    font-weight: bold;
+}
+
+.discount-badge{
+    position: absolute;
+    width: 100%;
+    top: 0; left: 0;
+    background-color: #00000096;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.discount-badge span{
+    font-size: 22px;
+}
+
+.btn-container{
+    margin: 2.5rem;
+}
+
+.btn-all {
+
+    padding: 1rem 1rem;
+    background-color: var(--green-title);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    transition: padding 0.05s ease;
+    font-weight: 600;
+}
+
+.btn-all:is(:hover,:active) {
+    background-color: var(--green);
+    padding: 1.1rem 1.1rem;
+}
+
 
 
 
