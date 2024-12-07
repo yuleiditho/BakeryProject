@@ -233,11 +233,19 @@ video{
     background-color: var(--red);
 }
 
-.home {
+.home{
     position: relative;
     padding-top: 3rem;
     padding-bottom: 0;
     z-index: 1;      
+}
+
+.title-home{
+    color: rgb(186, 222, 160);
+    font-size: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: 500;
 }
 
 .title-section{
@@ -246,6 +254,15 @@ video{
     padding-bottom: 30px;
     text-align: center;
     font-weight: 500;
+
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.title-section.active{
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* Ajustar la galería */
@@ -331,12 +348,25 @@ video{
     top: 0;
     left: 0;
     z-index: -1;
+    cursor: pointer;
 }
 
 .item:hover .hidden-text p,
 .item:hover .hidden-text h3{
     transition: transform 0.01s ease; /* Suaviza el escalado del contenido */
 } 
+
+.products{
+    display: none;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.products.active{
+    display: flex;
+}
+
 
 .img-deco{
     padding-top: 3.5rem;
