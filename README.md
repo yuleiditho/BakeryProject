@@ -8,4 +8,6 @@ Proyecto de un landing de una tienda de repostería
 <<<<<<< HEAD
 - 2024-12-07: Section main, home, gallery-products
 =======
->>>>>>> 2f644aca2f523c7bfb73c835eede35684ad4edae
+
+## GitHub Pages
+- https://yuleiditho.github.io/BakeryProject/
