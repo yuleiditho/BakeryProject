@@ -16,16 +16,17 @@ El diseño de la página se inspiró en la página web **La Divinata**, dándole
 ## Instalación
 
 1. *Clona este repositorio:*
-    bash
+    ```
     git clone https://github.com/yuleiditho/BakeryProject.git
+    ```
     
 
 2. *Navega al directorio del proyecto:*
-    bash
+    ```
     cd BakeryProject
-    
+    ```
 
-3. *Abre el archivo index.html en tu navegador para ver la página web.*
+3. *Abre el archivo `index.html` en tu navegador para ver la página web.*
 
 - No se requieren instalaciones adicionales. Asegúrate de tener un navegador web actualizado para ver el proyecto.
 
