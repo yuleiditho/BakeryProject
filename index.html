@@ -6,22 +6,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- styles css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/faq.css">
+    <link rel="stylesheet" href="./assets/css/footer_style.css">
     <!-- <link rel="stylesheet" href="css/styles-extra.css"> -->
-    <link rel="stylesheet" href="snow.css">
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
     <!-- font awesome  cdn link--> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- favicon -->
+     <link rel="icon" href="./assets/images/logo/favicon.ico" type="image/x-icon">
+
     
-    <title>La divinata Pastelería</title>
+    <title>Yiye's Pastelería</title>
 </head>
 <body class="sky">
     <header>
         <div class="top-row">
-            <input type="checkbox" name="" id="toggler">
-            <label for="toggler" class="fas fa-bars"></label>
+            <label for="toggler" class="fas fa-bars" id="menu-toggle"></label>
             <a href="#" class="fas fa-search search-icon"></a>
             <a href="" class="logo">yiye's<span>🎄</span></a>
             <div class="icons">
@@ -30,7 +35,7 @@
             </div>    
         </div>
     
-        <nav class="navbar">
+        <nav class="navbar" id="navbar">
             <ul>
                 <li><a href="#"><span>Pasteles</span></a></li>
                 <li><a href="#"><span>Pays</span></a></li>
@@ -43,6 +48,8 @@
                 <li><a href=""><span>Empresas</span></a></li>
             </ul>
         </nav>
+
+       
         
     </header>
 
@@ -129,8 +136,8 @@
             <div class="flex-item">
                 <div class="image-wrapper">
                     <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                    <img src="images/pasteles/pastel-aleman1.png" alt="Pastel alemán" class="image-default">
-                    <img src="images/pasteles/pastel-aleman2.png" alt="Pastel alemán rebanada" class="image-hover">
+                    <img src="./assets/images/pasteles/pastel-aleman1.png" alt="Pastel alemán" class="image-default">
+                    <img src="./assets/images/pasteles/pastel-aleman2.png" alt="Pastel alemán rebanada" class="image-hover">
                 </div>
                 <div class="info">
                     <h3 class="title-product">Pastel Alemán</h3>
@@ -143,8 +150,8 @@
             <div class="flex-item">
                 <div class="image-wrapper">
                     <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                    <img src="images/pasteles/pastel-caramelo1.png" alt="Pastel de caramelo" class="image-default">
-                    <img src="images/pasteles/pastel-caramelo2.png" alt="Pastel de caramelo rebanada" class="image-hover">
+                    <img src="./assets/images/pasteles/pastel-caramelo1.png" alt="Pastel de caramelo" class="image-default">
+                    <img src="./assets/images/pasteles/pastel-caramelo2.png" alt="Pastel de caramelo rebanada" class="image-hover">
                 </div>
                 <div class="info">
                     <h3 class="title-product">Pastel de Caramelo</h3>
@@ -155,8 +162,8 @@
             <div class="flex-item">
                 <div class="image-wrapper">
                     <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                    <img src="images/pasteles/pastel-pistache1.png" alt="Pastel de pistache" class="image-default">
-                    <img src="images/pasteles/pastel-pistache2.png" alt="Pastel de pistache rebanada" class="image-hover">
+                    <img src="./assets/images/pasteles/pastel-pistache1.png" alt="Pastel de pistache" class="image-default">
+                    <img src="./assets/images/pasteles/pastel-pistache2.png" alt="Pastel de pistache rebanada" class="image-hover">
                 </div>
                 <div class="info">
                     <h3 class="title-product">Pastel de Pistache</h3>
@@ -167,8 +174,8 @@
             <div class="flex-item">
                 <div class="image-wrapper">
                     <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                    <img src="images/pasteles/pastel-frutosrojos.png" alt="Pastel de frutos rojos" class="image-default">
-                    <img src="images/pasteles/pastel-frutosrojos2.png" alt="Pastel de frutos rojos rebanada" class="image-hover">
+                    <img src="./assets/images/pasteles/pastel-frutosrojos.png" alt="Pastel de frutos rojos" class="image-default">
+                    <img src="./assets/images/pasteles/pastel-frutosrojos2.png" alt="Pastel de frutos rojos rebanada" class="image-hover">
                 </div>
                 <div class="info">
                     <h3 class="title-product">Paste de Frutos Rojos</h3>
@@ -179,8 +186,8 @@
             <div class="flex-item">
                 <div class="image-wrapper">
                     <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                    <img src="images/pasteles/pastel-zanahoria.png" alt="Pastel de Zanahoria" class="image-default">
-                    <img src="images/pasteles/pastel-zanahoria2.png" alt="Pastel de zanahoria rebanada" class="image-hover">
+                    <img src="./assets/images/pasteles/pastel-zanahoria.png" alt="Pastel de Zanahoria" class="image-default">
+                    <img src="./assets/images/pasteles/pastel-zanahoria2.png" alt="Pastel de zanahoria rebanada" class="image-hover">
                 </div>
                 <div class="info">
                     <h3 class="title-product">Pastel de Zanahoria</h3>
@@ -191,8 +198,8 @@
             <div class="flex-item">
                 <div class="image-wrapper">
                     <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                    <img src="images/pasteles/pastel-ferrero.png" alt="Pastel ferrero" class="image-default">
-                    <img src="images/pasteles/pastel-ferrero2.png" alt="Pastel ferrero rebanada" class="image-hover">
+                    <img src="./assets/images/pasteles/pastel-ferrero.png" alt="Pastel ferrero" class="image-default">
+                    <img src="./assets/images/pasteles/pastel-ferrero2.png" alt="Pastel ferrero rebanada" class="image-hover">
                 </div>
                 <div class="info">
                     <h3 class="title-product">Pastel Ferrero</h3>
@@ -203,8 +210,8 @@
             <div class="flex-item">
                 <div class="image-wrapper">
                     <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                    <img src="images/pasteles/pastel-fresa.png" alt="Pastel mostachón fresa" class="image-default">
-                    <img src="images/pasteles/pastel-fresa2.png" alt="Pastel mostachón fresa rebanada" class="image-hover">
+                    <img src="./assets/images/pasteles/pastel-fresa.png" alt="Pastel mostachón fresa" class="image-default">
+                    <img src="./assets/images/pasteles/pastel-fresa2.png" alt="Pastel mostachón fresa rebanada" class="image-hover">
                 </div>
                 <div class="info">
                     <h3 class="title-product">Pastel de Fresa</h3>
@@ -215,8 +222,8 @@
             <div class="flex-item">
                 <div class="image-wrapper">
                     <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                    <img src="images/pasteles/pastel-redvelvet.png" alt="Pastel red velvet" class="image-default">
-                    <img src="images/pasteles/pastel-redvelvet2.png" alt="Pastel red velvet rebanada" class="image-hover">
+                    <img src="./assets/images/pasteles/pastel-redvelvet.png" alt="Pastel red velvet" class="image-default">
+                    <img src="./assets/images/pasteles/pastel-redvelvet2.png" alt="Pastel red velvet rebanada" class="image-hover">
                 </div>
                 <div class="info">
                     <h3 class="title-product">Pastel Red Velvet</h3>
@@ -238,8 +245,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/pays/pay-nuez.jpg" alt="Pay de Nuez" class="image-default">
-                        <img src="images/pays/pay-nuez2.jpg" alt="Pay de nuez rebanada" class="image-hover">
+                        <img src="./assets/images/pays/pay-nuez.jpg" alt="Pay de Nuez" class="image-default">
+                        <img src="./assets/images/pays/pay-nuez2.jpg" alt="Pay de nuez rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Pay de Nuez</h3>
@@ -251,8 +258,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/pays/pay-platano.jpg" alt="Pay de Plátano" class="image-default">
-                        <img src="images/pays/pay-platano2.jpg" alt="Pay de plátano rebanada" class="image-hover">
+                        <img src="./assets/images/pays/pay-platano.jpg" alt="Pay de Plátano" class="image-default">
+                        <img src="./assets/images/pays/pay-platano2.jpg" alt="Pay de plátano rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Pay de Plátano</h3>
@@ -264,8 +271,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/pays/pay-apple.jpg" alt="Pay de Manzana" class="image-default">
-                        <img src="images/pays/pay-apple2.jpg" alt="Pay de Manzana rebanada" class="image-hover">
+                        <img src="./assets/images/pays/pay-apple.jpg" alt="Pay de Manzana" class="image-default">
+                        <img src="./assets/images/pays/pay-apple2.jpg" alt="Pay de Manzana rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Pay de Manzana</h3>
@@ -278,8 +285,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/pays/pay-guayaba.jpg" alt="Pay de guayaba" class="image-default">
-                        <img src="images/pays/pay-guayaba2.jpg" alt="Pay de guayaba rebanada" class="image-hover">
+                        <img src="./assets/images/pays/pay-guayaba.jpg" alt="Pay de guayaba" class="image-default">
+                        <img src="./assets/images/pays/pay-guayaba2.jpg" alt="Pay de guayaba rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Pay de Guayaba</h3>
@@ -291,8 +298,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/pays/pay-limon.jpg" alt="Pay de limón" class="image-default">
-                        <img src="images/pays/pay-limon2.jpg" alt="Pay de limón rebanada" class="image-hover">
+                        <img src="./assets/images/pays/pay-limon.jpg" alt="Pay de limón" class="image-default">
+                        <img src="./assets/images/pays/pay-limon2.jpg" alt="Pay de limón rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Pay de Limón</h3>
@@ -305,8 +312,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/pays/pay-queso.jpg" alt="Pay de Queso" class="image-default">
-                        <img src="images/pays/pay-queso2.jpg" alt="Pay de queso rebanada" class="image-hover">
+                        <img src="./assets/images/pays/pay-queso.jpg" alt="Pay de Queso" class="image-default">
+                        <img src="./assets/images/pays/pay-queso2.jpg" alt="Pay de queso rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Pay de Queso</h3>
@@ -318,8 +325,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/pays/pay-keto.jpg" alt="Pay de keto" class="image-default">
-                        <img src="images/pays/pay-keto2.jpg" alt="Pay de keto rebanada" class="image-hover">
+                        <img src="./assets/images/pays/pay-keto.jpg" alt="Pay de keto" class="image-default">
+                        <img src="./assets/images/pays/pay-keto2.jpg" alt="Pay de keto rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Pay de Keto</h3>
@@ -331,8 +338,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/pays/pay-turtle.jpg" alt="Pay de Tortuga" class="image-default">
-                        <img src="images/pays/pay-turtle2.jpg" alt="Pay de tortuga rebanada" class="image-hover">
+                        <img src="./assets/images/pays/pay-turtle.jpg" alt="Pay de Tortuga" class="image-default">
+                        <img src="./assets/images/pays/pay-turtle2.jpg" alt="Pay de tortuga rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Pay de Tortuga</h3>
@@ -355,8 +362,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/muffin/muf-pistache.jpg" alt="Muffin de pistache" class="image-default">
-                        <img src="images/muffin/muf-pistache2.jpg" alt="Muffin de pistache rebanada" class="image-hover">
+                        <img src="./assets/images/muffin/muf-pistache.jpg" alt="Muffin de pistache" class="image-default">
+                        <img src="./assets/images/muffin/muf-pistache2.jpg" alt="Muffin de pistache rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Muffin Pistache</h3>
@@ -369,8 +376,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/muffin/muf-aleman.jpg" alt="Muffin alemán" class="image-default">
-                        <img src="images/muffin/muf-aleman2.jpg" alt="Muffin alemán rebanada" class="image-hover">
+                        <img src="./assets/images/muffin/muf-aleman.jpg" alt="Muffin alemán" class="image-default">
+                        <img src="./assets/images/muffin/muf-aleman2.jpg" alt="Muffin alemán rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Muffin Alemán</h3>
@@ -381,8 +388,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/muffin/muf-elote.jpg" alt="Muffin elote" class="image-default">
-                        <img src="images/muffin/muf-elote2.jpg" alt="Muffin elote rebanada" class="image-hover">
+                        <img src="./assets/images/muffin/muf-elote.jpg" alt="Muffin elote" class="image-default">
+                        <img src="./assets/images/muffin/muf-elote2.jpg" alt="Muffin elote rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Muffin de Elote</h3>
@@ -393,8 +400,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/muffin/muf-choco.jpg" alt="Muffin Choco" class="image-default">
-                        <img src="images/muffin/muf-choco2.jpg" alt="Muffin Choco rebanada" class="image-hover">
+                        <img src="./assets/images/muffin/muf-choco.jpg" alt="Muffin Choco" class="image-default">
+                        <img src="./assets/images/muffin/muf-choco2.jpg" alt="Muffin Choco rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Muffin Choco </h3>
@@ -405,8 +412,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/muffin/muf-velvet.jpg" alt="Muffin de Red Velvet" class="image-default">
-                        <img src="images/muffin/muf-velvet2.jpg" alt="Muffin de Red Velvet rebanada" class="image-hover">
+                        <img src="./assets/images/muffin/muf-velvet.jpg" alt="Muffin de Red Velvet" class="image-default">
+                        <img src="./assets/images/muffin/muf-velvet2.jpg" alt="Muffin de Red Velvet rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Muffin de Red Velvet</h3>
@@ -417,8 +424,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/muffin/muf-coco.jpg" alt="Muffin de Coco" class="image-default">
-                        <img src="images/muffin/muf-coco2.jpg" alt="Muffin de Coco rebanada" class="image-hover">
+                        <img src="./assets/images/muffin/muf-coco.jpg" alt="Muffin de Coco" class="image-default">
+                        <img src="./assets/images/muffin/muf-coco2.jpg" alt="Muffin de Coco rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Muffin de Coco</h3>
@@ -429,8 +436,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/muffin/muf-zanahoria.jpg" alt="Muffin de Zanahoria" class="image-default">
-                        <img src="images/muffin/muf-zanahoria2.jpg" alt="Muffin de Zanahoria rebanada" class="image-hover">
+                        <img src="./assets/images/muffin/muf-zanahoria.jpg" alt="Muffin de Zanahoria" class="image-default">
+                        <img src="./assets/images/muffin/muf-zanahoria2.jpg" alt="Muffin de Zanahoria rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Muffin de Zanahoria</h3>
@@ -441,8 +448,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/muffin/muf-ferrero.jpg" alt="Muffin Ferrero" class="image-default">
-                        <img src="images/muffin/muf-ferrero2.jpg" alt="Muffin Ferrero rebanada" class="image-hover">
+                        <img src="./assets/images/muffin/muf-ferrero.jpg" alt="Muffin Ferrero" class="image-default">
+                        <img src="./assets/images/muffin/muf-ferrero2.jpg" alt="Muffin Ferrero rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Muffin Ferrero</h3>
@@ -464,8 +471,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/brownies/brow-caja.png" alt="Brownie Caja" class="image-default">
-                        <img src="images/brownies/brow-caja2.png" alt="Brownie Caja rebanada" class="image-hover">
+                        <img src="./assets/images/brownies/brow-caja.png" alt="Brownie Caja" class="image-default">
+                        <img src="./assets/images/brownies/brow-caja2.png" alt="Brownie Caja rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Brownie Caja</h3>
@@ -478,8 +485,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/brownies/brow-cajanav.png" alt="Brownie Caja Navidad" class="image-default">
-                        <img src="images/brownies/brow-cajanav2.png" alt="Brownie Caja Navidad rebanada" class="image-hover">
+                        <img src="./assets/images/brownies/brow-cajanav.png" alt="Brownie Caja Navidad" class="image-default">
+                        <img src="./assets/images/brownies/brow-cajanav2.png" alt="Brownie Caja Navidad rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Brownie Navidad</h3>
@@ -490,8 +497,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/brownies/brow-keto.png" alt="Brownie Keto" class="image-default">
-                        <img src="images/brownies/brow-keto2.png" alt="Brownie Keto rebanada" class="image-hover">
+                        <img src="./assets/images/brownies/brow-keto.png" alt="Brownie Keto" class="image-default">
+                        <img src="./assets/images/brownies/brow-keto2.png" alt="Brownie Keto rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Brownie Keto</h3>
@@ -502,8 +509,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/brownies/brow-oreo.png" alt="Brownie oreo" class="image-default">
-                        <img src="images/brownies/brow-oreo2.png" alt="Brownie oreo rebanada" class="image-hover">
+                        <img src="./assets/images/brownies/brow-oreo.png" alt="Brownie oreo" class="image-default">
+                        <img src="./assets/images/brownies/brow-oreo2.png" alt="Brownie oreo rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Brownie de Oreo</h3>
@@ -514,8 +521,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/brownies/brow-queso.png" alt="Brownie queso" class="image-default">
-                        <img src="images/brownies/brow-queso2.png" alt="Brownie queso rebanada" class="image-hover">
+                        <img src="./assets/images/brownies/brow-queso.png" alt="Brownie queso" class="image-default">
+                        <img src="./assets/images/brownies/brow-queso2.png" alt="Brownie queso rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Brownie de Queso</h3>
@@ -526,8 +533,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/brownies/brow-super.png" alt="Brownie super" class="image-default">
-                        <img src="images/brownies/brow-super2.png" alt="Brownie super rebanada" class="image-hover">
+                        <img src="./assets/images/brownies/brow-super.png" alt="Brownie super" class="image-default">
+                        <img src="./assets/images/brownies/brow-super2.png" alt="Brownie super rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Brownie Súper</h3>
@@ -538,8 +545,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/brownies/brow-velvet.png" alt="Brownie velvet" class="image-default">
-                        <img src="images/brownies/brow-velvet2.png" alt="Brownie velvet rebanada" class="image-hover">
+                        <img src="./assets/images/brownies/brow-velvet.png" alt="Brownie velvet" class="image-default">
+                        <img src="./assets/images/brownies/brow-velvet2.png" alt="Brownie velvet rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Brownie de Velvet</h3>
@@ -562,8 +569,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/cookies/cookie-barra.png" alt="Cookie Barra" class="image-default">
-                        <img src="images/cookies/cookie-barra2.png" alt="Cookie Barra rebanada" class="image-hover">
+                        <img src="./assets/images/cookies/cookie-barra.png" alt="Cookie Barra" class="image-default">
+                        <img src="./assets/images/cookies/cookie-barra2.png" alt="Cookie Barra rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Galleta de Barra</h3>
@@ -576,8 +583,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/cookies/cookie-choco.png" alt="Cookie Choco" class="image-default">
-                        <img src="images/cookies/cookie-choco2.png" alt="Cookie Choco rebanada" class="image-hover">
+                        <img src="./assets/images/cookies/cookie-choco.png" alt="Cookie Choco" class="image-default">
+                        <img src="./assets/images/cookies/cookie-choco2.png" alt="Cookie Choco rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Galleta de Chocolate</h3>
@@ -588,8 +595,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/cookies/cookie-keto.png" alt="Cookie Keto" class="image-default">
-                        <img src="images/cookies/cookie-keto2.png" alt="Cookie Keto rebanada" class="image-hover">
+                        <img src="./assets/images/cookies/cookie-keto.png" alt="Cookie Keto" class="image-default">
+                        <img src="./assets/images/cookies/cookie-keto2.png" alt="Cookie Keto rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Galleta de Keto</h3>
@@ -600,8 +607,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/cookies/cookie-nuez.png" alt="Cookie de Nuez" class="image-default">
-                        <img src="images/cookies/cookie-nuez2.png" alt="Cookie de Nuez rebanada" class="image-hover">
+                        <img src="./assets/images/cookies/cookie-nuez.png" alt="Cookie de Nuez" class="image-default">
+                        <img src="./assets/images/cookies/cookie-nuez2.png" alt="Cookie de Nuez rebanada" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Galleta de Nuez</h3>
@@ -615,8 +622,8 @@
                 <div class="flex-item">
                     <div class="image-wrapper">
                         <div class="discount-badge"> <span>📢</span>  -20% para nuevos clientes</div>
-                        <img src="images/cookies/cookie-cacao.png" alt="Cookie de Cacao" class="image-default">
-                        <img src="images/cookies/cookie-cacao2.png" alt="Cookie de Cacao" class="image-hover">
+                        <img src="./assets/images/cookies/cookie-cacao.png" alt="Cookie de Cacao" class="image-default">
+                        <img src="./assets/images/cookies/cookie-cacao2.png" alt="Cookie de Cacao" class="image-hover">
                     </div>
                     <div class="info">
                         <h3 class="title-product">Galleta de Cacao</h3>
@@ -629,26 +636,124 @@
             </div>
         </div>
 
-
-
-
         <div class="btn-container">
             <button class="btn-all">Ver todo</button>
         </div>
 
-        
+    </section>
+
+      <!--questions-->
+    <section class="faq-container" id="faq-container">
+        <h2 class="title-h2">Preguntas Frecuentes</h2>
+        <div class="faq-item">
+            <button class="faq-question">¿Qué tipos de postres ofrecen? <span class="faq-icon">+</span></button>
+            <div class="faq-answer">
+                <p>Ofrecemos una amplia variedad de pasteles, pays, brownies, muffins y galletas, todos elaborados con ingredientes de la más alta calidad.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">¿Hacen entregas a domicilio? <span class="faq-icon">+</span></button>
+            <div class="faq-answer">
+                <p>Sí, contamos con servicio de entregas a domicilio en varias zonas. Consulta la disponibilidad al momento de realizar tu pedido.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">¿Puedo personalizar un pastel? <span class="faq-icon">+</span></button>
+            <div class="faq-answer">
+                <p>¡Por supuesto! Ofrecemos opciones de personalización para pasteles. Contáctanos para más detalles.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">¿Cuales son los metodos de pago aceptados en Yiye's? <span class="faq-icon">+</span></button>
+            <div class="faq-answer">
+                <p>Aceptamos una variedad de métodos de pago, incluyendo tarjetas de crédito y débito, transferencias bancarias y pagos en efectivo. Queremos hacer tu experiencia de compra lo más conveniente posible.</p>
+            </div>
+        </div>
     </section>
     
-
-  
     
+    <div class="newsletter-container">
+            <p><strong>Suscríbete a nuestro Newsletter</strong></p>
+            <form action="#" method="POST" class="newsletter-form">
+                <input type="email" name="email" placeholder="Correo electrónico" required>
+                <button type="submit">→</button>
+            </form>
+    </div>
 
 
+       <!--Footer-->
+    <footer class="footer">
+    <div class="footer-container">    
+        
 
+        <!-- Logo Section -->
+        <div class="footer-section logo">
+            <img src="./assets/images/logo/yiye's.png" alt="Logo La Divinata">
+            <a href="" class="footer-logo">yiye's<span>🎄</span></a>
+        </div>
+        <!-- Links Section -->
+        <div class="footer-section links">
+            <ul>
+            <li><strong>Nosotros</strong></li>
+            <li><a href="#">Sucursales</a></li>
+            <li><a href="#">Facturación</a></li>
+            <li><a href="#">Política de devolución</a></li>
+            <li><a href="#">Términos y condiciones</a></li>
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Política de envíos</a></li>
+            </ul>
+        </div>
+        <!-- Contact Section -->
+        <div class="footer-section contact">
+            <ul>
+                <li><strong>Servicio al Cliente</strong></li>
+                <li><a href="">Contacto: atencion@yiyes.mx</a></li>
+                <li><a href="">Horario de atención:</a></li>
+                <li><a href="">Lunes a sábado de 8am a 6pm</a></li>
+            </ul>
+        </div>
+        <!-- Social Media Section -->
+        <div class="footer-section social">
+            <ul>
+                <li><strong>Síguenos</strong></li>
+                <li><a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="https://www.tiktok.com" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i> TikTok</a></li>
+                <li><a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+            </ul>
+        </div>
+        <!-- Payment Methods -->
+        <div class="footer-section payment">
+            <ul>
+                <li><strong>Métodos de Pago</strong></li>
+                <li class="payment-logos">
+                    <img src="../assets/icons/Visa.png" alt="Visa" class="payment-logo">
+                    <img src="../assets/icons/Element.png" alt="MasterCard" class="payment-logo">
+                    <img src="../assets/icons/American-Express-PNG-Image_1_d5d419b0-941d-455a-8079-805fe0ab3e0e.webp" alt="American Express" class="payment-logo">
+                    <img src="../assets/icons/Capa_2.png" alt="SPEI" class="payment-logo">
+                </li>
+                </ul>
+            </div>            
+        </div>
+    
+        <div class="footer-bottom">
+            <hr class="footer-divider">
+            <p>© 2024, yiye's // Estrategia, sitio y contenido por el equipo 3</p>
+        </div>
+    </footer>
+
+    <div class="chat-button">
+        <a href="#" class="chat-link">
+            <!-- Icono de Font Awesome para chat -->
+            <i class="fas fa-comments chat-icon"></i>
+            Chat
+        </a>
+    </div>
+    
     
     <!-- scripts -->
-  <script  src="script.js"></script>
-  <script  src="main.js"></script>
+  <script  src="./assets/scripts/script.js"></script>
+  <script  src="./assets/scripts/main.js"></script>
+  <script src="./assets/scripts/menu.js"> </script>
   
 </body>
 </html>

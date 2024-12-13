@@ -1,0 +1,306 @@
+/* Newsletter Section */
+
+:root{
+    --footer: rgb(94, 99, 68);
+}
+
+.newsletter-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.newsletter-container {
+    background-color: var(--footer);
+    color: var(--green-main); 
+    padding: 7px 30px;
+    border-top-left-radius: 20px;
+    text-align: right; 
+    margin-left: 90rem;
+}
+
+.newsletter-container strong{
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+.newsletter-form {
+    display: inline-flex; 
+    align-items: center;
+    gap: 10px; 
+}
+
+.newsletter-form input {
+    padding: 10px 20px;
+    width: 250px; 
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #556b2f; 
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #556b2f;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.newsletter-form button:hover {
+    background-color: #dcdcdc; 
+}
+
+
+/* Estilos generales del footer */
+.footer {
+    background-color: var(--footer);
+    /* color: var(--green-main);  */
+    padding: 2rem 1rem; 
+    font-size: 1.4rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem; 
+}
+
+.footer-section {
+    flex: 1 1 1 1;
+    padding: 25px 0 0 0;
+    text-align: left; 
+    max-width: 200px; 
+}
+
+.footer-section.logo {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+    gap: 0.1rem; 
+}
+
+.footer-section.logo img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.footer-section.logo p {
+    margin: 0;
+    font-size: 1.4rem; 
+    line-height: 1.5; 
+    color: var(--green-main); 
+}
+
+.footer-section ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin: 0.5rem 0;
+}
+
+.footer-section li a {
+    color: var(--footer-section);
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: var(--green); 
+    text-decoration:underline;
+}
+
+.contact li a{
+    color: var(--footer-section);
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: var(--green-main); 
+}
+
+/* Estilo para los métodos de pago */
+.footer-section.payment ul li strong {
+    font-size: 1.6rem; 
+    display: block; 
+    margin-bottom: 1.5rem; 
+    color: #fff; 
+}
+
+
+
+
+
+.payment-logos {
+    display: flex; 
+    gap: 1.5rem;
+    justify-content: flex-start; 
+    align-items: center; 
+}
+
+.payment-logo {
+    height: 15px; 
+    width: auto; 
+    transition: transform 0.3s ease; 
+}
+
+.payment-logo:hover {
+    transform: scale(1.1); 
+    cursor: pointer; 
+}
+
+
+.footer-logo {
+    font-size: 2.8rem;
+    color: var(--footer-section);
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 1024px) {
+    .footer-container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .footer-section {
+        flex: 1 1 100%;
+        max-width: none; 
+        margin: 1rem 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer {
+        padding: 1.5rem 0.5rem; 
+        font-size: 1.2rem; 
+        text-align: center; 
+    }
+
+    .footer-container {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 1.5rem; 
+    }
+
+    .footer-section {
+        flex: 1 1 100%; 
+        max-width: none;
+        text-align: center; 
+    }
+
+    .footer-section.logo img {
+        width: 70px; 
+        margin-bottom: 1rem;
+    }
+
+    .footer-section ul li {
+        margin: 0.3rem 0; 
+    }
+
+    .footer-section ul li a {
+        font-size: 1.2rem;
+    }
+
+    .payment-logos {
+        gap: 1rem;
+    }
+    .payment-logo {
+        height: 15px; 
+        width: auto; 
+        transition: transform 0.3s ease; 
+    }
+    .footer-bottom {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+    .newsletter-container{
+        display: none;
+    }
+}
+
+.footer-divider {
+    border: none;
+    border-top: 0.5px solid #000; 
+    width: 100%;
+    margin: 1rem 0;
+    font-size: 1px;
+}
+
+.footer-bottom p{
+    font-size: 1.35rem;
+    color: var(--footer-section);
+}
+/* Estilo para el botón flotante */
+.chat-button {
+    position: fixed; 
+    bottom: 25px; 
+    right: 2rem; 
+    background-color: rgb(129, 148, 72); 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000; 
+    display: flex; 
+    align-items: center; 
+    padding: 1.65rem 1.65rem;
+    font-size: 1.68rem; 
+    color: white;
+    font-weight: bold; 
+    transition: background-color 0.3s, transform 0.2s ease-in-out; 
+}
+
+/* Estilo del enlace */
+.chat-link {
+    text-decoration: none; 
+    display: flex; 
+    align-items: center; 
+    color: white; 
+}
+
+/* Estilo del logo dentro del botón */
+.chat-logo {
+    width: 25px; 
+    height: auto;
+    margin-right: 0.7rem; 
+}
+
+/* Estilo para el texto "Chat" */
+.chat-button span {
+    font-size: 1.2rem; 
+}
+
+/* Efecto al pasar el ratón */
+.chat-button:hover {
+    background-color: var(--green); 
+    transform: scale(1.1); 
+}
+
+.chat-icon {
+    margin-right: 0.5rem; 
+    font-size: 1.5rem;
+}
+
