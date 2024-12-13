@@ -7,21 +7,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- styles css -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/faq.css">
+    <link rel="stylesheet" href="./css/footer_style.css">
     <!-- <link rel="stylesheet" href="css/styles-extra.css"> -->
-    <link rel="stylesheet" href="snow.css">
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
     <!-- font awesome  cdn link--> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- favicon -->
+     <link rel="icon" href="images/logo/favicon.ico" type="image/x-icon">
+
     
-    <title>La divinata Pastelería</title>
+    <title>Yiye's Pastelería</title>
 </head>
 <body class="sky">
     <header>
         <div class="top-row">
-            <input type="checkbox" name="" id="toggler">
-            <label for="toggler" class="fas fa-bars"></label>
+            <label for="toggler" class="fas fa-bars" id="menu-toggle"></label>
             <a href="#" class="fas fa-search search-icon"></a>
             <a href="" class="logo">yiye's<span>🎄</span></a>
             <div class="icons">
@@ -30,7 +35,7 @@
             </div>    
         </div>
     
-        <nav class="navbar">
+        <nav class="navbar" id="navbar">
             <ul>
                 <li><a href="#"><span>Pasteles</span></a></li>
                 <li><a href="#"><span>Pays</span></a></li>
@@ -43,6 +48,8 @@
                 <li><a href=""><span>Empresas</span></a></li>
             </ul>
         </nav>
+
+       
         
     </header>
 
@@ -629,15 +636,118 @@
             </div>
         </div>
 
-
-
-
         <div class="btn-container">
             <button class="btn-all">Ver todo</button>
         </div>
 
-        
     </section>
+
+      <!--questions-->
+    <section class="faq-container" id="faq-container">
+        <h2 class="title-h2">Preguntas Frecuentes</h2>
+        <div class="faq-item">
+            <button class="faq-question">¿Qué tipos de postres ofrecen? <span class="faq-icon">+</span></button>
+            <div class="faq-answer">
+                <p>Ofrecemos una amplia variedad de pasteles, pays, brownies, muffins y galletas, todos elaborados con ingredientes de la más alta calidad.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">¿Hacen entregas a domicilio? <span class="faq-icon">+</span></button>
+            <div class="faq-answer">
+                <p>Sí, contamos con servicio de entregas a domicilio en varias zonas. Consulta la disponibilidad al momento de realizar tu pedido.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">¿Puedo personalizar un pastel? <span class="faq-icon">+</span></button>
+            <div class="faq-answer">
+                <p>¡Por supuesto! Ofrecemos opciones de personalización para pasteles. Contáctanos para más detalles.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">¿Cuales son los metodos de pago aceptados en Yiye's? <span class="faq-icon">+</span></button>
+            <div class="faq-answer">
+                <p>Aceptamos una variedad de métodos de pago, incluyendo tarjetas de crédito y débito, transferencias bancarias y pagos en efectivo. Queremos hacer tu experiencia de compra lo más conveniente posible.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <div class="newsletter-container">
+            <p><strong>Suscríbete a nuestro Newsletter</strong></p>
+            <form action="#" method="POST" class="newsletter-form">
+                <input type="email" name="email" placeholder="Correo electrónico" required>
+                <button type="submit">→</button>
+            </form>
+    </div>
+
+
+       <!--Footer-->
+    <footer class="footer">
+    <div class="footer-container">    
+        
+
+        <!-- Logo Section -->
+        <div class="footer-section logo">
+            <img src="./images/logo/yiye's.png" alt="Logo La Divinata">
+            <a href="" class="footer-logo">yiye's<span>🎄</span></a>
+        </div>
+        <!-- Links Section -->
+        <div class="footer-section links">
+            <ul>
+            <li><strong>Nosotros</strong></li>
+            <li><a href="#">Sucursales</a></li>
+            <li><a href="#">Facturación</a></li>
+            <li><a href="#">Política de devolución</a></li>
+            <li><a href="#">Términos y condiciones</a></li>
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Política de envíos</a></li>
+            </ul>
+        </div>
+        <!-- Contact Section -->
+        <div class="footer-section contact">
+            <ul>
+                <li><strong>Servicio al Cliente</strong></li>
+                <li><a href="">Contacto: atencion@yiyes.mx</a></li>
+                <li><a href="">Horario de atención:</a></li>
+                <li><a href="">Lunes a sábado de 8am a 6pm</a></li>
+            </ul>
+        </div>
+        <!-- Social Media Section -->
+        <div class="footer-section social">
+            <ul>
+                <li><strong>Síguenos</strong></li>
+                <li><a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="https://www.tiktok.com" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i> TikTok</a></li>
+                <li><a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+            </ul>
+        </div>
+        <!-- Payment Methods -->
+        <div class="footer-section payment">
+            <ul>
+                <li><strong>Métodos de Pago</strong></li>
+                <li class="payment-logos">
+                    <img src="./icons/Visa.png" alt="Visa" class="payment-logo">
+                    <img src="./icons/Element.png" alt="MasterCard" class="payment-logo">
+                    <img src="./icons/American-Express-PNG-Image_1_d5d419b0-941d-455a-8079-805fe0ab3e0e.webp" alt="American Express" class="payment-logo">
+                    <img src="./icons/Capa_2.png" alt="SPEI" class="payment-logo">
+                </li>
+                </ul>
+            </div>            
+        </div>
+    
+        <div class="footer-bottom">
+            <hr class="footer-divider">
+            <p>© 2024, yiye's // Estrategia, sitio y contenido por el equipo 3</p>
+        </div>
+    </footer>
+
+    <div class="chat-button">
+        <a href="#" class="chat-link">
+            <!-- Icono de Font Awesome para chat -->
+            <i class="fas fa-comments chat-icon"></i>
+            Chat
+        </a>
+    </div>
     
 
   
@@ -647,8 +757,9 @@
 
     
     <!-- scripts -->
-  <script  src="script.js"></script>
-  <script  src="main.js"></script>
+  <script  src="scripts/script.js"></script>
+  <script  src="scripts/main.js"></script>
+  <script src="scripts/menu.js"> </script>
   
 </body>
 </html>
