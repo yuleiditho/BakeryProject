@@ -4,7 +4,7 @@ Proyecto de un landing de una tienda de repostería
 
 ## Descripción
 
-Este proyecto es parte del curso de **Dev.f Academy* y se centra en la creación de una página web simple, organizada y funcional utilizando HTML/CSS y control de versiones con Git.
+Este proyecto es parte del curso de **Dev.f Academy** y se centra en la creación de una página web simple, organizada y funcional utilizando HTML/CSS y control de versiones con Git.
 
 ## Fuentes de Diseño
 
