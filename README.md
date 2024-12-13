@@ -8,7 +8,7 @@ Este proyecto es parte del curso de **Dev.f Academy** y se centra en la creació
 
 ## Fuentes de Diseño
 
-El diseño de la página se inspiró en la página web *La Divinata*, dándole un estilo black mode o modo oscuro.
+El diseño de la página se inspiró en la página web **La Divinata**, dándole un estilo black mode o modo oscuro.
 
 - [La Divinata](https://www.ladivinata.mx/) 
 
