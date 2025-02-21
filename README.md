@@ -28,4 +28,8 @@ El diseño de la página se inspiró en la página web **La Divinata**, dándole
 
 3. *Abre el archivo `index.html` en tu navegador para ver la página web.*
 
+## GitHub Pages
+
+- [Bakery](https://yuleiditho.github.io/BakeryProject/) Diseño inspirado en la temporada navideña
+
 - No se requieren instalaciones adicionales. Asegúrate de tener un navegador web actualizado para ver el proyecto.
