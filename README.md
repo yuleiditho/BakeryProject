@@ -6,11 +6,9 @@ Proyecto de un landing de una tienda de repostería
 
 Este proyecto es parte del curso de **Dev.f Academy** y se centra en la creación de una página web simple, organizada y funcional utilizando HTML/CSS y control de versiones con Git.
 
-## Fuentes de Diseño
+## GitHub Pages
 
-El diseño de la página se inspiró en la página web **La Divinata**, dándole un estilo black mode o modo oscuro.
-
-- [La Divinata](https://www.ladivinata.mx/) 
+- [Bakery](https://yuleiditho.github.io/BakeryProject/) Diseño inspirado en la temporada navideña
 
 
 ## Instalación
@@ -28,8 +26,11 @@ El diseño de la página se inspiró en la página web **La Divinata**, dándole
 
 3. *Abre el archivo `index.html` en tu navegador para ver la página web.*
 
-## GitHub Pages
 
-- [Bakery](https://yuleiditho.github.io/BakeryProject/) Diseño inspirado en la temporada navideña
+## Fuentes de Diseño
+
+El diseño de la página se inspiró en la página web **La Divinata**, dándole un estilo black mode o modo oscuro.
+
+- [La Divinata](https://www.ladivinata.mx/) 
 
 - No se requieren instalaciones adicionales. Asegúrate de tener un navegador web actualizado para ver el proyecto.
