@@ -33,4 +33,4 @@ El diseño de la página se inspiró en la página web **La Divinata**, dándole
 
 - [La Divinata](https://www.ladivinata.mx/) 
 
-- No se requieren instalaciones adicionales. Asegúrate de tener un navegador web actualizado para ver el proyecto.
+
